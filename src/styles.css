@@ -2,10 +2,13 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 div {
   text-align: center;
   border: 1px solid red;
   padding: 10px;
+  margin: 5px;
+  width: 25%;
 }
